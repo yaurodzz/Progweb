@@ -10,6 +10,6 @@ function criarSuperHeroi(nome) {
     return nome + " agora é o " + nomeHeroi + "!";
 }
 
-console.log(criarSuperHeroi("rodz"));
-console.log(criarSuperHeroi("tic"));
-console.log(criarSuperHeroi("jota"));
+alert(criarSuperHeroi("rodz"));
+alert(criarSuperHeroi("tic"));
+alert(criarSuperHeroi("jota"));

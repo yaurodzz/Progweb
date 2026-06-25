@@ -4,6 +4,4 @@ function gerarHistoriaEngracada(nome, lugar, objeto) {
         " gigante que resolveu fazer amizade com ele(a)!";
 }
 
-console.log(gerarHistoriaEngracada("dede", "escola", "maçã"));
-console.log(gerarHistoriaEngracada("juan", "praia", "bicicleta"));
-console.log(gerarHistoriaEngracada("rodz", "parque", "bola"));
+console.log(gerarHistoriaEngracada(prompt("Digite um nome:"), prompt("Digite um lugar:"), prompt("Digite um objeto:")));

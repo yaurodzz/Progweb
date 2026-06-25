@@ -55,6 +55,4 @@ function dataPorExtenso(data) {
     return dias[dia] + " de " + meses[mes] + " de " + anoExtenso;
 }
 
-console.log(dataPorExtenso("12/08/2024"));
-console.log(dataPorExtenso("01/01/2000"));
-console.log(dataPorExtenso("31/12/2100"));
+console.log(dataPorExtenso(prompt("Digite uma data no formato DD/MM/AAAA:")));

@@ -13,4 +13,4 @@ for (let i = 0; i < 4; i++) {
 }
 
 const resultado = somarArray(numeros);
-console.log("A soma dos números é: " + resultado);
+alert("A soma dos números é: " + resultado);

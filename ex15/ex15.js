@@ -7,6 +7,6 @@ function verdadeOuMentira(frase) {
         return '"' + frase + '" -> Verdade!';
     }
 }
-console.log(verdadeOuMentira("O céu é verde"));
-console.log(verdadeOuMentira("JavaScript é uma linguagem de programação"));
-console.log(verdadeOuMentira("Gatos sabem dirigir carros"));
+alert(verdadeOuMentira("O céu é verde"));
+alert(verdadeOuMentira("JavaScript é uma linguagem de programação"));
+alert(verdadeOuMentira("Gatos sabem dirigir carros"));

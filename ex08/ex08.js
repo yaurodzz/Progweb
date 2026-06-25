@@ -52,7 +52,10 @@ function valorMedio(vetor) {
 }
 
 let vetorVazio = [];
-let vetorNumeros = [10, 20, 30, 40, 50];
+let vetorNumeros = [];
+for (let i = 0; i < 5; i++) {
+    vetorNumeros.push(parseFloat(prompt("Digite um número:")));
+}
 
 console.log("Array vazio:");
 console.log("Está vazio?", estaVazio(vetorVazio));

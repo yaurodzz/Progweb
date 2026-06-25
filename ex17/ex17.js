@@ -7,6 +7,6 @@ function gerarNomeDeJogador(nome) {
     return nome + numeroAleatorio + simboloAleatorio;
 }
 
-console.log(gerarNomeDeJogador("tictoria"));
-console.log(gerarNomeDeJogador("rodz"));
-console.log(gerarNomeDeJogador("joao"));
+alert(gerarNomeDeJogador("tictoria"));
+alert(gerarNomeDeJogador("rodz"));
+alert(gerarNomeDeJogador("joao"));

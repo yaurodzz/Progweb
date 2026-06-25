@@ -13,6 +13,4 @@ function embaralharTexto(texto) {
 
     return letras.join("");
 }
-console.log(embaralharTexto("script"));
-console.log(embaralharTexto("JavaScript"));
-console.log(embaralharTexto("Programacao"));
+console.log(embaralharTexto(prompt("Digite um texto para embaralhar:")));

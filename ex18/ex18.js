@@ -77,6 +77,6 @@ function numeroPorExtensoReais(valor) {
     return resultado;
 }
 
-console.log(numeroPorExtensoReais("1.74"));
-console.log(numeroPorExtensoReais("3251.90"));
-console.log(numeroPorExtensoReais("10.05"));
+alert(numeroPorExtensoReais("1.74"));
+alert(numeroPorExtensoReais("3251.90"));
+alert(numeroPorExtensoReais("10.05"));

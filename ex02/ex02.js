@@ -7,4 +7,4 @@ const nome = prompt("Digite o seu nome:");
 const idadeAtual = parseInt(prompt("Digite a sua idade atual:"));
 const anos = parseInt(prompt("Digite a quantidade de anos que deseja adicionar:"));
 
-console.log(calcularIdadeNoFuturo(nome, idadeAtual, anos));
+alert(calcularIdadeNoFuturo(nome, idadeAtual, anos));

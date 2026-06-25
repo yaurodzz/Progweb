@@ -8,4 +8,4 @@ function verificarParImpar(numero) {
 
 const numero = parseInt(prompt("Digite um número:"));
 const resultado = verificarParImpar(numero);
-console.log(resultado);
+alert(resultado);
